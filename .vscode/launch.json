@@ -1,0 +1,25 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) 附加",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/drv_lib_proj.elf",
+            "cwd": "${workspaceFolder}",
+            "miDebuggerServerAddress": "localhost:2331",
+            "MIMode": "gdb",
+            "miDebuggerPath": "E:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+si 1
+exec device=STM32F103RC
+speed 1000
+r
+h
+loadbin "build/drv_lib_proj.bin" 0x08000000
+setpc 0x08000000
+r
+g
+q
