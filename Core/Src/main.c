@@ -26,8 +26,9 @@
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
 
-#include "button.h"
 #include "drv_lib.h"
+
+#include "button.h"
 #include "matrix_keypad.h"
 /* USER CODE END Includes */
 
